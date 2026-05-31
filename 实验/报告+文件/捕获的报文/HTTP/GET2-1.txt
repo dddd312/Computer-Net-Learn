@@ -1,0 +1,21 @@
+No.     Time           Source                Destination           Protocol Length Info
+     62 4.151586000    10.31.231.121         128.119.245.12        HTTP     526    GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1 
+
+Frame 62: 526 bytes on wire (4208 bits), 526 bytes captured (4208 bits) on interface 0
+Ethernet II, Src: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f), Dst: 04:f3:52:8a:36:95 (04:f3:52:8a:36:95)
+Internet Protocol Version 4, Src: 10.31.231.121 (10.31.231.121), Dst: 128.119.245.12 (128.119.245.12)
+Transmission Control Protocol, Src Port: 57852 (57852), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 472
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html]
+    [HTTP request 1/2]
+    [Response in frame: 67]
+    [Next request in frame: 68]

@@ -1,0 +1,157 @@
+No.     Time           Source                Destination           Protocol Length Info
+    190 4.705394000    10.31.231.121         128.119.245.12        HTTP     468    POST /wireshark-labs/lab3-1-reply.htm HTTP/1.1  (text/plain)
+
+Frame 190: 468 bytes on wire (3744 bits), 468 bytes captured (3744 bits) on interface 0
+Ethernet II, Src: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f), Dst: 04:f3:52:8a:36:95 (04:f3:52:8a:36:95)
+Internet Protocol Version 4, Src: 10.31.231.121 (10.31.231.121), Dst: 128.119.245.12 (128.119.245.12)
+Transmission Control Protocol, Src Port: 61953 (61953), Dst Port: 80 (80), Seq: 152615, Ack: 1, Len: 414
+    Source Port: 61953 (61953)
+    Destination Port: 80 (80)
+    [Stream index: 18]
+    [TCP Segment Len: 414]
+    Sequence number: 152615    (relative sequence number)
+    [Next sequence number: 153029    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 255
+    [Calculated window size: 65280]
+    [Window size scaling factor: 256]
+    Checksum: 0x51a2 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+    TCP segment data (414 bytes)
+[111 Reassembled TCP Segments (153028 bytes): #49(707), #50(1400), #51(1400), #52(1400), #53(1400), #54(1400), #55(1400), #56(1400), #57(1400), #58(1400), #66(1400), #67(1400), #68(1400), #69(1400), #70(1400), #71(1400), #72(1400), #73(1400]
+    [Frame: 49, payload: 0-706 (707 bytes)]
+    [Frame: 50, payload: 707-2106 (1400 bytes)]
+    [Frame: 51, payload: 2107-3506 (1400 bytes)]
+    [Frame: 52, payload: 3507-4906 (1400 bytes)]
+    [Frame: 53, payload: 4907-6306 (1400 bytes)]
+    [Frame: 54, payload: 6307-7706 (1400 bytes)]
+    [Frame: 55, payload: 7707-9106 (1400 bytes)]
+    [Frame: 56, payload: 9107-10506 (1400 bytes)]
+    [Frame: 57, payload: 10507-11906 (1400 bytes)]
+    [Frame: 58, payload: 11907-13306 (1400 bytes)]
+    [Frame: 66, payload: 13307-14706 (1400 bytes)]
+    [Frame: 67, payload: 14707-16106 (1400 bytes)]
+    [Frame: 68, payload: 16107-17506 (1400 bytes)]
+    [Frame: 69, payload: 17507-18906 (1400 bytes)]
+    [Frame: 70, payload: 18907-20306 (1400 bytes)]
+    [Frame: 71, payload: 20307-21706 (1400 bytes)]
+    [Frame: 72, payload: 21707-23106 (1400 bytes)]
+    [Frame: 73, payload: 23107-24506 (1400 bytes)]
+    [Frame: 74, payload: 24507-25906 (1400 bytes)]
+    [Frame: 75, payload: 25907-27306 (1400 bytes)]
+    [Frame: 76, payload: 27307-28706 (1400 bytes)]
+    [Frame: 77, payload: 28707-30106 (1400 bytes)]
+    [Frame: 78, payload: 30107-31506 (1400 bytes)]
+    [Frame: 79, payload: 31507-32906 (1400 bytes)]
+    [Frame: 80, payload: 32907-34306 (1400 bytes)]
+    [Frame: 81, payload: 34307-35706 (1400 bytes)]
+    [Frame: 82, payload: 35707-37106 (1400 bytes)]
+    [Frame: 83, payload: 37107-38506 (1400 bytes)]
+    [Frame: 84, payload: 38507-39906 (1400 bytes)]
+    [Frame: 90, payload: 39907-41306 (1400 bytes)]
+    [Frame: 91, payload: 41307-42706 (1400 bytes)]
+    [Frame: 92, payload: 42707-44106 (1400 bytes)]
+    [Frame: 93, payload: 44107-45506 (1400 bytes)]
+    [Frame: 94, payload: 45507-46906 (1400 bytes)]
+    [Frame: 95, payload: 46907-48306 (1400 bytes)]
+    [Frame: 96, payload: 48307-49706 (1400 bytes)]
+    [Frame: 97, payload: 49707-51106 (1400 bytes)]
+    [Frame: 98, payload: 51107-52506 (1400 bytes)]
+    [Frame: 99, payload: 52507-53906 (1400 bytes)]
+    [Frame: 100, payload: 53907-55306 (1400 bytes)]
+    [Frame: 101, payload: 55307-56706 (1400 bytes)]
+    [Frame: 107, payload: 56707-58106 (1400 bytes)]
+    [Frame: 108, payload: 58107-59506 (1400 bytes)]
+    [Frame: 109, payload: 59507-60906 (1400 bytes)]
+    [Frame: 110, payload: 60907-62306 (1400 bytes)]
+    [Frame: 111, payload: 62307-63706 (1400 bytes)]
+    [Frame: 112, payload: 63707-65106 (1400 bytes)]
+    [Frame: 113, payload: 65107-66506 (1400 bytes)]
+    [Frame: 114, payload: 66507-67906 (1400 bytes)]
+    [Frame: 115, payload: 67907-69306 (1400 bytes)]
+    [Frame: 116, payload: 69307-70706 (1400 bytes)]
+    [Frame: 117, payload: 70707-72106 (1400 bytes)]
+    [Frame: 118, payload: 72107-73506 (1400 bytes)]
+    [Frame: 119, payload: 73507-74906 (1400 bytes)]
+    [Frame: 120, payload: 74907-76306 (1400 bytes)]
+    [Frame: 121, payload: 76307-77706 (1400 bytes)]
+    [Frame: 122, payload: 77707-79106 (1400 bytes)]
+    [Frame: 123, payload: 79107-80506 (1400 bytes)]
+    [Frame: 124, payload: 80507-81906 (1400 bytes)]
+    [Frame: 125, payload: 81907-83306 (1400 bytes)]
+    [Frame: 126, payload: 83307-84706 (1400 bytes)]
+    [Frame: 127, payload: 84707-86106 (1400 bytes)]
+    [Frame: 128, payload: 86107-87506 (1400 bytes)]
+    [Frame: 129, payload: 87507-88906 (1400 bytes)]
+    [Frame: 130, payload: 88907-90306 (1400 bytes)]
+    [Frame: 131, payload: 90307-91706 (1400 bytes)]
+    [Frame: 132, payload: 91707-93106 (1400 bytes)]
+    [Frame: 138, payload: 93107-94506 (1400 bytes)]
+    [Frame: 139, payload: 94507-95906 (1400 bytes)]
+    [Frame: 140, payload: 95907-97306 (1400 bytes)]
+    [Frame: 141, payload: 97307-98706 (1400 bytes)]
+    [Frame: 142, payload: 98707-99413 (707 bytes)]
+    [Frame: 144, payload: 99414-100813 (1400 bytes)]
+    [Frame: 145, payload: 100814-102213 (1400 bytes)]
+    [Frame: 146, payload: 102214-103613 (1400 bytes)]
+    [Frame: 147, payload: 103614-105013 (1400 bytes)]
+    [Frame: 150, payload: 105014-106413 (1400 bytes)]
+    [Frame: 151, payload: 106414-107813 (1400 bytes)]
+    [Frame: 152, payload: 107814-109213 (1400 bytes)]
+    [Frame: 153, payload: 109214-110613 (1400 bytes)]
+    [Frame: 154, payload: 110614-112013 (1400 bytes)]
+    [Frame: 155, payload: 112014-113413 (1400 bytes)]
+    [Frame: 156, payload: 113414-114813 (1400 bytes)]
+    [Frame: 157, payload: 114814-116213 (1400 bytes)]
+    [Frame: 158, payload: 116214-117613 (1400 bytes)]
+    [Frame: 159, payload: 117614-119013 (1400 bytes)]
+    [Frame: 160, payload: 119014-120413 (1400 bytes)]
+    [Frame: 161, payload: 120414-121813 (1400 bytes)]
+    [Frame: 162, payload: 121814-123213 (1400 bytes)]
+    [Frame: 163, payload: 123214-124613 (1400 bytes)]
+    [Frame: 170, payload: 124614-126013 (1400 bytes)]
+    [Frame: 171, payload: 126014-127413 (1400 bytes)]
+    [Frame: 172, payload: 127414-128813 (1400 bytes)]
+    [Frame: 173, payload: 128814-130213 (1400 bytes)]
+    [Frame: 174, payload: 130214-131613 (1400 bytes)]
+    [Frame: 175, payload: 131614-133013 (1400 bytes)]
+    [Frame: 176, payload: 133014-134413 (1400 bytes)]
+    [Frame: 177, payload: 134414-135813 (1400 bytes)]
+    [Frame: 178, payload: 135814-137213 (1400 bytes)]
+    [Frame: 179, payload: 137214-138613 (1400 bytes)]
+    [Frame: 180, payload: 138614-140013 (1400 bytes)]
+    [Frame: 181, payload: 140014-141413 (1400 bytes)]
+    [Frame: 182, payload: 141414-142813 (1400 bytes)]
+    [Frame: 183, payload: 142814-144213 (1400 bytes)]
+    [Frame: 184, payload: 144214-145613 (1400 bytes)]
+    [Frame: 185, payload: 145614-147013 (1400 bytes)]
+    [Frame: 186, payload: 147014-148413 (1400 bytes)]
+    [Frame: 187, payload: 148414-149813 (1400 bytes)]
+    [Frame: 188, payload: 149814-151213 (1400 bytes)]
+    [Frame: 189, payload: 151214-152613 (1400 bytes)]
+    [Frame: 190, payload: 152614-153027 (414 bytes)]
+    [Segment count: 111]
+    [Reassembled TCP length: 153028]
+    [Reassembled TCP Data: 504f5354202f77697265736861726b2d6c6162732f6c6162...]
+Hypertext Transfer Protocol
+    POST /wireshark-labs/lab3-1-reply.htm HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 152321\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVdS9NIA38k8COcVl\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\r\n
+    Origin: http://gaia.cs.umass.edu\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/TCP-wireshark-file1.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/lab3-1-reply.htm]
+    [HTTP request 1/1]
+    [Response in frame: 232]
+MIME Multipart Media Encapsulation, Type: multipart/form-data, Boundary: "----WebKitFormBoundaryVdS9NIA38k8COcVl"

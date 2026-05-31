@@ -1,0 +1,24 @@
+No.     Time        Source                Destination           Protocol Length Info
+      2 0.023172    128.119.245.12        192.168.1.102         TCP      62     80→1161 [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1460 SACK_PERM=1
+
+Frame 2: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: Actionte_8a:70:1a (00:20:e0:8a:70:1a)
+    Destination: Actionte_8a:70:1a (00:20:e0:8a:70:1a)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.102 (192.168.1.102)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 1161 (1161), Seq: 0, Ack: 1, Len: 0
+    Source Port: 80 (80)
+    Destination Port: 1161 (1161)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 28 bytes
+    .... 0000 0001 0010 = Flags: 0x012 (SYN, ACK)
+    Window size value: 5840
+    [Calculated window size: 5840]
+    Checksum: 0x774d [validation disabled]
+    Urgent pointer: 0
+    Options: (8 bytes), Maximum segment size, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [SEQ/ACK analysis]

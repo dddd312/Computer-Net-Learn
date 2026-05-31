@@ -1,0 +1,20 @@
+No.     Time           Source                Destination           Protocol Length Info
+     96 2.677392000    240c:c283:4001:b8cd:cc91:3803:8ba1:6dbb 2a03:4000:3e:5ca:3813:f3ff:fe33:915d HTTP     459    GET /8E_cover_small.jpg HTTP/1.1 
+
+Frame 96: 459 bytes on wire (3672 bits), 459 bytes captured (3672 bits) on interface 0
+Ethernet II, Src: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f), Dst: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83)
+Internet Protocol Version 6, Src: 240c:c283:4001:b8cd:cc91:3803:8ba1:6dbb (240c:c283:4001:b8cd:cc91:3803:8ba1:6dbb), Dst: 2a03:4000:3e:5ca:3813:f3ff:fe33:915d (2a03:4000:3e:5ca:3813:f3ff:fe33:915d)
+Transmission Control Protocol, Src Port: 53467 (53467), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 385
+Hypertext Transfer Protocol
+    GET /8E_cover_small.jpg HTTP/1.1\r\n
+    Host: kurose.cslash.net\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\r\n
+    Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9\r\n
+    \r\n
+    [Full request URI: http://kurose.cslash.net/8E_cover_small.jpg]
+    [HTTP request 1/1]
+    [Response in frame: 1301]

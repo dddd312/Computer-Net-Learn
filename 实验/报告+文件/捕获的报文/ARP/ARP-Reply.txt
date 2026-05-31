@@ -1,0 +1,34 @@
+No.     Time           Source                Destination           Protocol Length Info
+    208 11.828786000   4c:10:d5:90:89:83     b8:1e:a4:b4:b9:0f     ARP      42     192.168.1.1 is at 4c:10:d5:90:89:83
+
+Frame 208: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{5169B2AA-3C16-408A-A432-5B7AE7E62E0F})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May 31, 2026 14:46:35.376191000 中国标准时间
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1780209995.376191000 seconds
+    [Time delta from previous captured frame: 0.002345000 seconds]
+    [Time delta from previous displayed frame: 0.002345000 seconds]
+    [Time since reference or first frame: 11.828786000 seconds]
+    Frame Number: 208
+    Frame Length: 42 bytes (336 bits)
+    Capture Length: 42 bytes (336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83), Dst: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f)
+    Destination: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f)
+    Source: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83)
+    Type: ARP (0x0806)
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83)
+    Sender IP address: 192.168.1.1 (192.168.1.1)
+    Target MAC address: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f)
+    Target IP address: 192.168.1.101 (192.168.1.101)

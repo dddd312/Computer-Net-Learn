@@ -1,0 +1,593 @@
+No.     Time        Source                Destination           Protocol Length Info
+      1 0.000000    AmbitMic_a9:3d:68     Broadcast             ARP      42     Who has 192.168.1.1?  Tell 192.168.1.105
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Sender IP address: 192.168.1.105 (192.168.1.105)
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 192.168.1.1 (192.168.1.1)
+
+No.     Time        Source                Destination           Protocol Length Info
+      2 0.001018    LinksysG_da:af:73     AmbitMic_a9:3d:68     ARP      60     192.168.1.1 is at 00:06:25:da:af:73
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Destination: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: ARP (0x0806)
+    Padding: 000000000000000000000000000000000000
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Sender IP address: 192.168.1.1 (192.168.1.1)
+    Target MAC address: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Target IP address: 192.168.1.105 (192.168.1.105)
+
+No.     Time        Source                Destination           Protocol Length Info
+      3 0.001028    AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   62     IP
+
+Frame 3: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (48 bytes)
+
+0000  45 00 00 30 00 f3 40 00 80 06 3a f3 c0 a8 01 69   E..0..@...:....i
+0010  c7 02 35 ce 04 21 02 77 64 d1 7e 0b 00 00 00 00   ..5..!.wd.~.....
+0020  70 02 fa f0 df d7 00 00 02 04 05 b4 01 01 04 02   p...............
+
+No.     Time        Source                Destination           Protocol Length Info
+      4 2.962850    AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   62     IP
+
+Frame 4: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (48 bytes)
+
+0000  45 00 00 30 00 f4 40 00 80 06 3a f2 c0 a8 01 69   E..0..@...:....i
+0010  c7 02 35 ce 04 21 02 77 64 d1 7e 0b 00 00 00 00   ..5..!.wd.~.....
+0020  70 02 fa f0 df d7 00 00 02 04 05 b4 01 01 04 02   p...............
+
+No.     Time        Source                Destination           Protocol Length Info
+      5 8.971488    AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   62     IP
+
+Frame 5: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (48 bytes)
+
+0000  45 00 00 30 00 f5 40 00 80 06 3a f1 c0 a8 01 69   E..0..@...:....i
+0010  c7 02 35 ce 04 21 02 77 64 d1 7e 0b 00 00 00 00   ..5..!.wd.~.....
+0020  70 02 fa f0 df d7 00 00 02 04 05 b4 01 01 04 02   p...............
+
+No.     Time        Source                Destination           Protocol Length Info
+      6 13.542974   Telebit_73:8d:ce      Broadcast             ARP      60     Who has 192.168.1.117?  Tell 192.168.1.104
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: Telebit_73:8d:ce (00:80:ad:73:8d:ce), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+    Source: Telebit_73:8d:ce (00:80:ad:73:8d:ce)
+    Type: ARP (0x0806)
+    Padding: 000000000000000000000000000000000000
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (1)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (1)
+    Sender MAC address: Telebit_73:8d:ce (00:80:ad:73:8d:ce)
+    Sender IP address: 192.168.1.104 (192.168.1.104)
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 192.168.1.117 (192.168.1.117)
+
+No.     Time        Source                Destination           Protocol Length Info
+      7 17.444423   AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   62     IP
+
+Frame 7: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (48 bytes)
+
+0000  45 00 00 30 00 f8 40 00 80 06 c2 3a c0 a8 01 69   E..0..@....:...i
+0010  80 77 f5 0c 04 22 00 50 65 14 99 a6 00 00 00 00   .w...".Pe.......
+0020  70 02 fa f0 4d 6c 00 00 02 04 05 b4 01 01 04 02   p...Ml..........
+
+No.     Time        Source                Destination           Protocol Length Info
+      8 17.465902   LinksysG_da:af:73     AmbitMic_a9:3d:68     0x0800   62     IP
+
+Frame 8: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Destination: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: IP (0x0800)
+Data (48 bytes)
+
+0000  45 60 00 30 00 00 40 00 37 06 0b d3 80 77 f5 0c   E`.0..@.7....w..
+0010  c0 a8 01 69 00 50 04 22 ac a5 3f b3 65 14 99 a7   ...i.P."..?.e...
+0020  70 12 16 d0 45 23 00 00 02 04 05 b4 01 01 04 02   p...E#..........
+
+No.     Time        Source                Destination           Protocol Length Info
+      9 17.465927   AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   54     IP
+
+Frame 9: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (40 bytes)
+
+0000  45 00 00 28 00 f9 40 00 80 06 c2 41 c0 a8 01 69   E..(..@....A...i
+0010  80 77 f5 0c 04 22 00 50 65 14 99 a7 ac a5 3f b4   .w...".Pe.....?.
+0020  50 10 fa f0 8d c6 00 00                           P.......
+
+No.     Time        Source                Destination           Protocol Length Info
+     10 17.466468   AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   686    IP
+
+Frame 10: 686 bytes on wire (5488 bits), 686 bytes captured (5488 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (672 bytes)
+
+0000  45 00 02 a0 00 fa 40 00 80 06 bf c8 c0 a8 01 69   E.....@........i
+0010  80 77 f5 0c 04 22 00 50 65 14 99 a7 ac a5 3f b4   .w...".Pe.....?.
+0020  50 18 fa f0 7e 4f 00 00 47 45 54 20 2f 65 74 68   P...~O..GET /eth
+0030  65 72 65 61 6c 2d 6c 61 62 73 2f 48 54 54 50 2d   ereal-labs/HTTP-
+0040  65 74 68 65 72 65 61 6c 2d 6c 61 62 2d 66 69 6c   ethereal-lab-fil
+0050  65 33 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31   e3.html HTTP/1.1
+0060  0d 0a 48 6f 73 74 3a 20 67 61 69 61 2e 63 73 2e   ..Host: gaia.cs.
+0070  75 6d 61 73 73 2e 65 64 75 0d 0a 55 73 65 72 2d   umass.edu..User-
+0080  41 67 65 6e 74 3a 20 4d 6f 7a 69 6c 6c 61 2f 35   Agent: Mozilla/5
+0090  2e 30 20 28 57 69 6e 64 6f 77 73 3b 20 55 3b 20   .0 (Windows; U; 
+00a0  57 69 6e 64 6f 77 73 20 4e 54 20 35 2e 31 3b 20   Windows NT 5.1; 
+00b0  65 6e 2d 55 53 3b 20 72 76 3a 31 2e 30 2e 32 29   en-US; rv:1.0.2)
+00c0  20 47 65 63 6b 6f 2f 32 30 30 33 30 32 30 38 20    Gecko/20030208 
+00d0  4e 65 74 73 63 61 70 65 2f 37 2e 30 32 0d 0a 41   Netscape/7.02..A
+00e0  63 63 65 70 74 3a 20 74 65 78 74 2f 78 6d 6c 2c   ccept: text/xml,
+00f0  61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 6d 6c 2c   application/xml,
+0100  61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 68 74 6d   application/xhtm
+0110  6c 2b 78 6d 6c 2c 74 65 78 74 2f 68 74 6d 6c 3b   l+xml,text/html;
+0120  71 3d 30 2e 39 2c 74 65 78 74 2f 70 6c 61 69 6e   q=0.9,text/plain
+0130  3b 71 3d 30 2e 38 2c 76 69 64 65 6f 2f 78 2d 6d   ;q=0.8,video/x-m
+0140  6e 67 2c 69 6d 61 67 65 2f 70 6e 67 2c 69 6d 61   ng,image/png,ima
+0150  67 65 2f 6a 70 65 67 2c 69 6d 61 67 65 2f 67 69   ge/jpeg,image/gi
+0160  66 3b 71 3d 30 2e 32 2c 74 65 78 74 2f 63 73 73   f;q=0.2,text/css
+0170  2c 2a 2f 2a 3b 71 3d 30 2e 31 0d 0a 41 63 63 65   ,*/*;q=0.1..Acce
+0180  70 74 2d 4c 61 6e 67 75 61 67 65 3a 20 65 6e 2d   pt-Language: en-
+0190  75 73 2c 20 65 6e 3b 71 3d 30 2e 35 30 0d 0a 41   us, en;q=0.50..A
+01a0  63 63 65 70 74 2d 45 6e 63 6f 64 69 6e 67 3a 20   ccept-Encoding: 
+01b0  67 7a 69 70 2c 20 64 65 66 6c 61 74 65 2c 20 63   gzip, deflate, c
+01c0  6f 6d 70 72 65 73 73 3b 71 3d 30 2e 39 0d 0a 41   ompress;q=0.9..A
+01d0  63 63 65 70 74 2d 43 68 61 72 73 65 74 3a 20 49   ccept-Charset: I
+01e0  53 4f 2d 38 38 35 39 2d 31 2c 20 75 74 66 2d 38   SO-8859-1, utf-8
+01f0  3b 71 3d 30 2e 36 36 2c 20 2a 3b 71 3d 30 2e 36   ;q=0.66, *;q=0.6
+0200  36 0d 0a 4b 65 65 70 2d 41 6c 69 76 65 3a 20 33   6..Keep-Alive: 3
+0210  30 30 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20   00..Connection: 
+0220  6b 65 65 70 2d 61 6c 69 76 65 0d 0a 49 66 2d 4d   keep-alive..If-M
+0230  6f 64 69 66 69 65 64 2d 53 69 6e 63 65 3a 20 53   odified-Since: S
+0240  61 74 2c 20 32 38 20 41 75 67 20 32 30 30 34 20   at, 28 Aug 2004 
+0250  31 37 3a 30 30 3a 34 30 20 47 4d 54 0d 0a 49 66   17:00:40 GMT..If
+0260  2d 4e 6f 6e 65 2d 4d 61 74 63 68 3a 20 22 31 62   -None-Match: "1b
+0270  38 63 33 2d 31 31 39 34 2d 63 35 37 38 66 65 30   8c3-1194-c578fe0
+0280  30 22 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f   0"..Cache-Contro
+0290  6c 3a 20 6d 61 78 2d 61 67 65 3d 30 0d 0a 0d 0a   l: max-age=0....
+
+No.     Time        Source                Destination           Protocol Length Info
+     11 17.494766   LinksysG_da:af:73     AmbitMic_a9:3d:68     0x0800   60     IP
+
+Frame 11: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Destination: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: IP (0x0800)
+Data (46 bytes)
+
+0000  45 60 00 28 8f 2e 40 00 37 06 7c ac 80 77 f5 0c   E`.(..@.7.|..w..
+0010  c0 a8 01 69 00 50 04 22 ac a5 3f b4 65 14 9c 1f   ...i.P."..?.e...
+0020  50 10 1b 28 6b 17 00 00 ba 96 00 00 d2 40         P..(k........@
+
+No.     Time        Source                Destination           Protocol Length Info
+     12 17.498935   LinksysG_da:af:73     AmbitMic_a9:3d:68     0x0800   1514   IP
+
+Frame 12: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Destination: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: IP (0x0800)
+Data (1500 bytes)
+
+0000  45 60 05 dc 8f 2f 40 00 37 06 76 f7 80 77 f5 0c   E`.../@.7.v..w..
+0010  c0 a8 01 69 00 50 04 22 ac a5 3f b4 65 14 9c 1f   ...i.P."..?.e...
+0020  50 10 1b 28 5e d0 00 00 48 54 54 50 2f 31 2e 31   P..(^...HTTP/1.1
+0030  20 32 30 30 20 4f 4b 0d 0a 44 61 74 65 3a 20 53    200 OK..Date: S
+0040  61 74 2c 20 32 38 20 41 75 67 20 32 30 30 34 20   at, 28 Aug 2004 
+0050  31 37 3a 31 39 3a 33 37 20 47 4d 54 0d 0a 53 65   17:19:37 GMT..Se
+0060  72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 2e 30   rver: Apache/2.0
+0070  2e 34 30 20 28 52 65 64 20 48 61 74 20 4c 69 6e   .40 (Red Hat Lin
+0080  75 78 29 0d 0a 4c 61 73 74 2d 4d 6f 64 69 66 69   ux)..Last-Modifi
+0090  65 64 3a 20 53 61 74 2c 20 32 38 20 41 75 67 20   ed: Sat, 28 Aug 
+00a0  32 30 30 34 20 31 37 3a 31 38 3a 35 33 20 47 4d   2004 17:18:53 GM
+00b0  54 0d 0a 45 54 61 67 3a 20 22 31 62 61 35 63 2d   T..ETag: "1ba5c-
+00c0  31 31 39 34 2d 36 39 65 64 39 34 30 22 0d 0a 41   1194-69ed940"..A
+00d0  63 63 65 70 74 2d 52 61 6e 67 65 73 3a 20 62 79   ccept-Ranges: by
+00e0  74 65 73 0d 0a 43 6f 6e 74 65 6e 74 2d 4c 65 6e   tes..Content-Len
+00f0  67 74 68 3a 20 34 35 30 30 0d 0a 4b 65 65 70 2d   gth: 4500..Keep-
+0100  41 6c 69 76 65 3a 20 74 69 6d 65 6f 75 74 3d 31   Alive: timeout=1
+0110  30 2c 20 6d 61 78 3d 31 30 30 0d 0a 43 6f 6e 6e   0, max=100..Conn
+0120  65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69   ection: Keep-Ali
+0130  76 65 0d 0a 43 6f 6e 74 65 6e 74 2d 54 79 70 65   ve..Content-Type
+0140  3a 20 74 65 78 74 2f 68 74 6d 6c 3b 20 63 68 61   : text/html; cha
+0150  72 73 65 74 3d 49 53 4f 2d 38 38 35 39 2d 31 0d   rset=ISO-8859-1.
+0160  0a 0d 0a 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 20   ...<html><head> 
+0170  0a 3c 74 69 74 6c 65 3e 48 69 73 74 6f 72 69 63   .<title>Historic
+0180  61 6c 20 44 6f 63 75 6d 65 6e 74 73 3a 54 48 45   al Documents:THE
+0190  20 42 49 4c 4c 20 4f 46 20 52 49 47 48 54 53 3c    BILL OF RIGHTS<
+01a0  2f 74 69 74 6c 65 3e 3c 2f 68 65 61 64 3e 0a 0a   /title></head>..
+01b0  0a 3c 62 6f 64 79 20 62 67 63 6f 6c 6f 72 3d 22   .<body bgcolor="
+01c0  23 66 66 66 66 66 66 22 20 6c 69 6e 6b 3d 22 23   #ffffff" link="#
+01d0  33 33 30 30 30 30 22 20 76 6c 69 6e 6b 3d 22 23   330000" vlink="#
+01e0  36 36 36 36 33 33 22 3e 0a 3c 70 3e 3c 62 72 3e   666633">.<p><br>
+01f0  0a 3c 2f 70 3e 0a 3c 70 3e 3c 2f 70 3e 3c 63 65   .</p>.<p></p><ce
+0200  6e 74 65 72 3e 3c 62 3e 54 48 45 20 42 49 4c 4c   nter><b>THE BILL
+0210  20 4f 46 20 52 49 47 48 54 53 3c 2f 62 3e 3c 62    OF RIGHTS</b><b
+0220  72 3e 0a 20 20 3c 65 6d 3e 41 6d 65 6e 64 6d 65   r>.  <em>Amendme
+0230  6e 74 73 20 31 2d 31 30 20 6f 66 20 74 68 65 20   nts 1-10 of the 
+0240  43 6f 6e 73 74 69 74 75 74 69 6f 6e 3c 2f 65 6d   Constitution</em
+0250  3e 0a 3c 2f 63 65 6e 74 65 72 3e 0a 0a 3c 70 3e   >.</center>..<p>
+0260  54 68 65 20 43 6f 6e 76 65 6e 74 69 6f 6e 73 20   The Conventions 
+0270  6f 66 20 61 20 6e 75 6d 62 65 72 20 6f 66 20 74   of a number of t
+0280  68 65 20 53 74 61 74 65 73 20 68 61 76 69 6e 67   he States having
+0290  2c 20 61 74 20 74 68 65 20 74 69 6d 65 20 6f 66   , at the time of
+02a0  20 61 64 6f 70 74 69 6e 67 0a 74 68 65 20 43 6f    adopting.the Co
+02b0  6e 73 74 69 74 75 74 69 6f 6e 2c 20 65 78 70 72   nstitution, expr
+02c0  65 73 73 65 64 20 61 20 64 65 73 69 72 65 2c 20   essed a desire, 
+02d0  69 6e 20 6f 72 64 65 72 20 74 6f 20 70 72 65 76   in order to prev
+02e0  65 6e 74 20 6d 69 73 63 6f 6e 73 74 72 75 63 74   ent misconstruct
+02f0  69 6f 6e 0a 6f 72 20 61 62 75 73 65 20 6f 66 20   ion.or abuse of 
+0300  69 74 73 20 70 6f 77 65 72 73 2c 20 74 68 61 74   its powers, that
+0310  20 66 75 72 74 68 65 72 20 64 65 63 6c 61 72 61    further declara
+0320  74 6f 72 79 20 61 6e 64 20 72 65 73 74 72 69 63   tory and restric
+0330  74 69 76 65 20 63 6c 61 75 73 65 73 0a 73 68 6f   tive clauses.sho
+0340  75 6c 64 20 62 65 20 61 64 64 65 64 2c 20 61 6e   uld be added, an
+0350  64 20 61 73 20 65 78 74 65 6e 64 69 6e 67 20 74   d as extending t
+0360  68 65 20 67 72 6f 75 6e 64 20 6f 66 20 70 75 62   he ground of pub
+0370  6c 69 63 20 63 6f 6e 66 69 64 65 6e 63 65 20 69   lic confidence i
+0380  6e 20 74 68 65 0a 47 6f 76 65 72 6e 6d 65 6e 74   n the.Government
+0390  20 77 69 6c 6c 20 62 65 73 74 20 69 6e 73 75 72    will best insur
+03a0  65 20 74 68 65 20 62 65 6e 65 66 69 63 65 6e 74   e the beneficent
+03b0  20 65 6e 64 73 20 6f 66 20 69 74 73 20 69 6e 73    ends of its ins
+03c0  74 69 74 75 74 69 6f 6e 3b 20 3c 2f 70 3e 3c 70   titution; </p><p
+03d0  3e 20 20 52 65 73 6f 6c 76 65 64 2c 20 62 79 20   >  Resolved, by 
+03e0  74 68 65 20 53 65 6e 61 74 65 20 61 6e 64 20 48   the Senate and H
+03f0  6f 75 73 65 20 6f 66 20 52 65 70 72 65 73 65 6e   ouse of Represen
+0400  74 61 74 69 76 65 73 20 6f 66 20 74 68 65 20 55   tatives of the U
+0410  6e 69 74 65 64 0a 53 74 61 74 65 73 20 6f 66 20   nited.States of 
+0420  41 6d 65 72 69 63 61 2c 20 69 6e 20 43 6f 6e 67   America, in Cong
+0430  72 65 73 73 20 61 73 73 65 6d 62 6c 65 64 2c 20   ress assembled, 
+0440  74 77 6f 2d 74 68 69 72 64 73 20 6f 66 20 62 6f   two-thirds of bo
+0450  74 68 20 48 6f 75 73 65 73 20 63 6f 6e 63 75 72   th Houses concur
+0460  72 69 6e 67 2c 0a 74 68 61 74 20 74 68 65 20 66   ring,.that the f
+0470  6f 6c 6c 6f 77 69 6e 67 20 61 72 74 69 63 6c 65   ollowing article
+0480  73 20 62 65 20 70 72 6f 70 6f 73 65 64 20 74 6f   s be proposed to
+0490  20 74 68 65 20 4c 65 67 69 73 6c 61 74 75 72 65    the Legislature
+04a0  73 20 6f 66 20 74 68 65 20 73 65 76 65 72 61 6c   s of the several
+04b0  0a 53 74 61 74 65 73 2c 20 61 73 20 61 6d 65 6e   .States, as amen
+04c0  64 6d 65 6e 74 73 20 74 6f 20 74 68 65 20 43 6f   dments to the Co
+04d0  6e 73 74 69 74 75 74 69 6f 6e 20 6f 66 20 74 68   nstitution of th
+04e0  65 20 55 6e 69 74 65 64 20 53 74 61 74 65 73 3b   e United States;
+04f0  20 61 6c 6c 20 6f 72 20 61 6e 79 0a 6f 66 20 77    all or any.of w
+0500  68 69 63 68 20 61 72 74 69 63 6c 65 73 2c 20 77   hich articles, w
+0510  68 65 6e 20 72 61 74 69 66 69 65 64 20 62 79 20   hen ratified by 
+0520  74 68 72 65 65 2d 66 6f 75 72 74 68 73 20 6f 66   three-fourths of
+0530  20 74 68 65 20 73 61 69 64 20 4c 65 67 69 73 6c    the said Legisl
+0540  61 74 75 72 65 73 2c 0a 74 6f 20 62 65 20 76 61   atures,.to be va
+0550  6c 69 64 20 74 6f 20 61 6c 6c 20 69 6e 74 65 6e   lid to all inten
+0560  74 73 20 61 6e 64 20 70 75 72 70 6f 73 65 73 20   ts and purposes 
+0570  61 73 20 70 61 72 74 20 6f 66 20 74 68 65 20 73   as part of the s
+0580  61 69 64 20 43 6f 6e 73 74 69 74 75 74 69 6f 6e   aid Constitution
+0590  2c 0a 6e 61 6d 65 6c 79 3a 20 20 20 20 3c 2f 70   ,.namely:    </p
+05a0  3e 3c 70 3e 3c 61 20 6e 61 6d 65 3d 22 31 22 3e   ><p><a name="1">
+05b0  3c 73 74 72 6f 6e 67 3e 3c 68 33 3e 41 6d 65 6e   <strong><h3>Amen
+05c0  64 6d 65 6e 74 20 49 3c 2f 68 33 3e 3c 2f 73 74   dment I</h3></st
+05d0  72 6f 6e 67 3e 3c 2f 61 3e 0a 0a 3c               rong></a>..<
+
+No.     Time        Source                Destination           Protocol Length Info
+     13 17.500025   LinksysG_da:af:73     AmbitMic_a9:3d:68     0x0800   1514   IP
+
+Frame 13: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Destination: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: IP (0x0800)
+Data (1500 bytes)
+
+0000  45 60 05 dc 8f 30 40 00 37 06 76 f6 80 77 f5 0c   E`...0@.7.v..w..
+0010  c0 a8 01 69 00 50 04 22 ac a5 45 68 65 14 9c 1f   ...i.P."..Ehe...
+0020  50 10 1b 28 dd 82 00 00 70 3e 3c 2f 70 3e 3c 70   P..(....p></p><p
+0030  3e 43 6f 6e 67 72 65 73 73 20 73 68 61 6c 6c 20   >Congress shall 
+0040  6d 61 6b 65 20 6e 6f 20 6c 61 77 20 72 65 73 70   make no law resp
+0050  65 63 74 69 6e 67 20 61 6e 20 65 73 74 61 62 6c   ecting an establ
+0060  69 73 68 6d 65 6e 74 20 6f 66 0a 72 65 6c 69 67   ishment of.relig
+0070  69 6f 6e 2c 20 6f 72 20 70 72 6f 68 69 62 69 74   ion, or prohibit
+0080  69 6e 67 20 74 68 65 20 66 72 65 65 20 65 78 65   ing the free exe
+0090  72 63 69 73 65 20 74 68 65 72 65 6f 66 3b 20 6f   rcise thereof; o
+00a0  72 0a 61 62 72 69 64 67 69 6e 67 20 74 68 65 20   r.abridging the 
+00b0  66 72 65 65 64 6f 6d 20 6f 66 20 73 70 65 65 63   freedom of speec
+00c0  68 2c 20 6f 72 20 6f 66 20 74 68 65 20 70 72 65   h, or of the pre
+00d0  73 73 3b 20 6f 72 20 74 68 65 0a 72 69 67 68 74   ss; or the.right
+00e0  20 6f 66 20 74 68 65 20 70 65 6f 70 6c 65 20 70    of the people p
+00f0  65 61 63 65 61 62 6c 79 20 74 6f 20 61 73 73 65   eaceably to asse
+0100  6d 62 6c 65 2c 20 61 6e 64 20 74 6f 20 70 65 74   mble, and to pet
+0110  69 74 69 6f 6e 0a 74 68 65 20 67 6f 76 65 72 6e   ition.the govern
+0120  6d 65 6e 74 20 66 6f 72 20 61 20 72 65 64 72 65   ment for a redre
+0130  73 73 20 6f 66 20 67 72 69 65 76 61 6e 63 65 73   ss of grievances
+0140  2e 0a 0a 3c 2f 70 3e 3c 70 3e 3c 61 20 6e 61 6d   ...</p><p><a nam
+0150  65 3d 22 32 22 3e 3c 73 74 72 6f 6e 67 3e 3c 68   e="2"><strong><h
+0160  33 3e 41 6d 65 6e 64 6d 65 6e 74 20 49 49 3c 2f   3>Amendment II</
+0170  68 33 3e 3c 2f 73 74 72 6f 6e 67 3e 3c 2f 61 3e   h3></strong></a>
+0180  0a 0a 3c 70 3e 3c 2f 70 3e 3c 70 3e 41 20 77 65   ..<p></p><p>A we
+0190  6c 6c 20 72 65 67 75 6c 61 74 65 64 20 6d 69 6c   ll regulated mil
+01a0  69 74 69 61 2c 20 62 65 69 6e 67 20 6e 65 63 65   itia, being nece
+01b0  73 73 61 72 79 20 74 6f 20 74 68 65 20 73 65 63   ssary to the sec
+01c0  75 72 69 74 79 0a 6f 66 20 61 20 66 72 65 65 20   urity.of a free 
+01d0  73 74 61 74 65 2c 20 74 68 65 20 72 69 67 68 74   state, the right
+01e0  20 6f 66 20 74 68 65 20 70 65 6f 70 6c 65 20 74    of the people t
+01f0  6f 20 6b 65 65 70 20 61 6e 64 20 62 65 61 72 0a   o keep and bear.
+0200  61 72 6d 73 2c 20 73 68 61 6c 6c 20 6e 6f 74 20   arms, shall not 
+0210  62 65 20 69 6e 66 72 69 6e 67 65 64 2e 0a 0a 3c   be infringed...<
+0220  2f 70 3e 3c 70 3e 3c 61 20 6e 61 6d 65 3d 22 33   /p><p><a name="3
+0230  22 3e 3c 73 74 72 6f 6e 67 3e 3c 68 33 3e 41 6d   "><strong><h3>Am
+0240  65 6e 64 6d 65 6e 74 20 49 49 49 3c 2f 68 33 3e   endment III</h3>
+0250  3c 2f 73 74 72 6f 6e 67 3e 3c 2f 61 3e 0a 0a 3c   </strong></a>..<
+0260  70 3e 3c 2f 70 3e 3c 70 3e 4e 6f 20 73 6f 6c 64   p></p><p>No sold
+0270  69 65 72 20 73 68 61 6c 6c 2c 20 69 6e 20 74 69   ier shall, in ti
+0280  6d 65 20 6f 66 20 70 65 61 63 65 20 62 65 20 71   me of peace be q
+0290  75 61 72 74 65 72 65 64 20 69 6e 20 61 6e 79 20   uartered in any 
+02a0  68 6f 75 73 65 2c 0a 77 69 74 68 6f 75 74 20 74   house,.without t
+02b0  68 65 20 63 6f 6e 73 65 6e 74 20 6f 66 20 74 68   he consent of th
+02c0  65 20 6f 77 6e 65 72 2c 20 6e 6f 72 20 69 6e 20   e owner, nor in 
+02d0  74 69 6d 65 20 6f 66 20 77 61 72 2c 20 62 75 74   time of war, but
+02e0  0a 69 6e 20 61 20 6d 61 6e 6e 65 72 20 74 6f 20   .in a manner to 
+02f0  62 65 20 70 72 65 73 63 72 69 62 65 64 20 62 79   be prescribed by
+0300  20 6c 61 77 2e 0a 0a 3c 2f 70 3e 3c 70 3e 3c 61    law...</p><p><a
+0310  20 6e 61 6d 65 3d 22 34 22 3e 3c 73 74 72 6f 6e    name="4"><stron
+0320  67 3e 3c 68 33 3e 41 6d 65 6e 64 6d 65 6e 74 20   g><h3>Amendment 
+0330  49 56 3c 2f 68 33 3e 3c 2f 73 74 72 6f 6e 67 3e   IV</h3></strong>
+0340  3c 2f 61 3e 0a 0a 3c 70 3e 3c 2f 70 3e 3c 70 3e   </a>..<p></p><p>
+0350  54 68 65 20 72 69 67 68 74 20 6f 66 20 74 68 65   The right of the
+0360  20 70 65 6f 70 6c 65 20 74 6f 20 62 65 20 73 65    people to be se
+0370  63 75 72 65 20 69 6e 20 74 68 65 69 72 20 70 65   cure in their pe
+0380  72 73 6f 6e 73 2c 20 68 6f 75 73 65 73 2c 0a 70   rsons, houses,.p
+0390  61 70 65 72 73 2c 20 61 6e 64 20 65 66 66 65 63   apers, and effec
+03a0  74 73 2c 20 61 67 61 69 6e 73 74 20 75 6e 72 65   ts, against unre
+03b0  61 73 6f 6e 61 62 6c 65 20 73 65 61 72 63 68 65   asonable searche
+03c0  73 20 61 6e 64 20 73 65 69 7a 75 72 65 73 2c 0a   s and seizures,.
+03d0  73 68 61 6c 6c 20 6e 6f 74 20 62 65 20 76 69 6f   shall not be vio
+03e0  6c 61 74 65 64 2c 20 61 6e 64 20 6e 6f 20 77 61   lated, and no wa
+03f0  72 72 61 6e 74 73 20 73 68 61 6c 6c 20 69 73 73   rrants shall iss
+0400  75 65 2c 20 62 75 74 20 75 70 6f 6e 0a 70 72 6f   ue, but upon.pro
+0410  62 61 62 6c 65 20 63 61 75 73 65 2c 20 73 75 70   bable cause, sup
+0420  70 6f 72 74 65 64 20 62 79 20 6f 61 74 68 20 6f   ported by oath o
+0430  72 20 61 66 66 69 72 6d 61 74 69 6f 6e 2c 20 61   r affirmation, a
+0440  6e 64 0a 70 61 72 74 69 63 75 6c 61 72 6c 79 20   nd.particularly 
+0450  64 65 73 63 72 69 62 69 6e 67 20 74 68 65 20 70   describing the p
+0460  6c 61 63 65 20 74 6f 20 62 65 20 73 65 61 72 63   lace to be searc
+0470  68 65 64 2c 20 61 6e 64 20 74 68 65 0a 70 65 72   hed, and the.per
+0480  73 6f 6e 73 20 6f 72 20 74 68 69 6e 67 73 20 74   sons or things t
+0490  6f 20 62 65 20 73 65 69 7a 65 64 2e 0a 0a 3c 2f   o be seized...</
+04a0  70 3e 3c 70 3e 3c 61 20 6e 61 6d 65 3d 22 35 22   p><p><a name="5"
+04b0  3e 3c 73 74 72 6f 6e 67 3e 3c 68 33 3e 41 6d 65   ><strong><h3>Ame
+04c0  6e 64 6d 65 6e 74 20 56 3c 2f 68 33 3e 3c 2f 73   ndment V</h3></s
+04d0  74 72 6f 6e 67 3e 3c 2f 61 3e 0a 0a 3c 70 3e 3c   trong></a>..<p><
+04e0  2f 70 3e 3c 70 3e 4e 6f 20 70 65 72 73 6f 6e 20   /p><p>No person 
+04f0  73 68 61 6c 6c 20 62 65 20 68 65 6c 64 20 74 6f   shall be held to
+0500  20 61 6e 73 77 65 72 20 66 6f 72 20 61 20 63 61    answer for a ca
+0510  70 69 74 61 6c 2c 20 6f 72 20 6f 74 68 65 72 77   pital, or otherw
+0520  69 73 65 0a 69 6e 66 61 6d 6f 75 73 20 63 72 69   ise.infamous cri
+0530  6d 65 2c 20 75 6e 6c 65 73 73 20 6f 6e 20 61 20   me, unless on a 
+0540  70 72 65 73 65 6e 74 6d 65 6e 74 20 6f 72 20 69   presentment or i
+0550  6e 64 69 63 74 6d 65 6e 74 20 6f 66 20 61 20 67   ndictment of a g
+0560  72 61 6e 64 0a 6a 75 72 79 2c 20 65 78 63 65 70   rand.jury, excep
+0570  74 20 69 6e 20 63 61 73 65 73 20 61 72 69 73 69   t in cases arisi
+0580  6e 67 20 69 6e 20 74 68 65 20 6c 61 6e 64 20 6f   ng in the land o
+0590  72 20 6e 61 76 61 6c 20 66 6f 72 63 65 73 2c 0a   r naval forces,.
+05a0  6f 72 20 69 6e 20 74 68 65 20 6d 69 6c 69 74 69   or in the militi
+05b0  61 2c 20 77 68 65 6e 20 69 6e 20 61 63 74 75 61   a, when in actua
+05c0  6c 20 73 65 72 76 69 63 65 20 69 6e 20 74 69 6d   l service in tim
+05d0  65 20 6f 66 20 77 61 72 0a 6f 72 20               e of war.or 
+
+No.     Time        Source                Destination           Protocol Length Info
+     14 17.500069   AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   54     IP
+
+Frame 14: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (40 bytes)
+
+0000  45 00 00 28 00 fb 40 00 80 06 c2 3f c0 a8 01 69   E..(..@....?...i
+0010  80 77 f5 0c 04 22 00 50 65 14 9c 1f ac a5 4b 1c   .w...".Pe.....K.
+0020  50 10 fa f0 7f e6 00 00                           P.......
+
+No.     Time        Source                Destination           Protocol Length Info
+     15 17.527057   LinksysG_da:af:73     AmbitMic_a9:3d:68     0x0800   1514   IP
+
+Frame 15: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Destination: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: IP (0x0800)
+Data (1500 bytes)
+
+0000  45 60 05 dc 8f 31 40 00 37 06 76 f5 80 77 f5 0c   E`...1@.7.v..w..
+0010  c0 a8 01 69 00 50 04 22 ac a5 4b 1c 65 14 9c 1f   ...i.P."..K.e...
+0020  50 10 1b 28 1d 86 00 00 70 75 62 6c 69 63 20 64   P..(....public d
+0030  61 6e 67 65 72 3b 20 6e 6f 72 20 73 68 61 6c 6c   anger; nor shall
+0040  20 61 6e 79 20 70 65 72 73 6f 6e 20 62 65 20 73    any person be s
+0050  75 62 6a 65 63 74 20 66 6f 72 20 74 68 65 0a 73   ubject for the.s
+0060  61 6d 65 20 6f 66 66 65 6e 73 65 20 74 6f 20 62   ame offense to b
+0070  65 20 74 77 69 63 65 20 70 75 74 20 69 6e 20 6a   e twice put in j
+0080  65 6f 70 61 72 64 79 20 6f 66 20 6c 69 66 65 20   eopardy of life 
+0090  6f 72 20 6c 69 6d 62 3b 0a 6e 6f 72 20 73 68 61   or limb;.nor sha
+00a0  6c 6c 20 62 65 20 63 6f 6d 70 65 6c 6c 65 64 20   ll be compelled 
+00b0  69 6e 20 61 6e 79 20 63 72 69 6d 69 6e 61 6c 20   in any criminal 
+00c0  63 61 73 65 20 74 6f 20 62 65 20 61 20 77 69 74   case to be a wit
+00d0  6e 65 73 73 0a 61 67 61 69 6e 73 74 20 68 69 6d   ness.against him
+00e0  73 65 6c 66 2c 20 6e 6f 72 20 62 65 20 64 65 70   self, nor be dep
+00f0  72 69 76 65 64 20 6f 66 20 6c 69 66 65 2c 20 6c   rived of life, l
+0100  69 62 65 72 74 79 2c 20 6f 72 20 70 72 6f 70 65   iberty, or prope
+0110  72 74 79 2c 0a 77 69 74 68 6f 75 74 20 64 75 65   rty,.without due
+0120  20 70 72 6f 63 65 73 73 20 6f 66 20 6c 61 77 3b    process of law;
+0130  20 6e 6f 72 20 73 68 61 6c 6c 20 70 72 69 76 61    nor shall priva
+0140  74 65 20 70 72 6f 70 65 72 74 79 20 62 65 0a 74   te property be.t
+0150  61 6b 65 6e 20 66 6f 72 20 70 75 62 6c 69 63 20   aken for public 
+0160  75 73 65 2c 20 77 69 74 68 6f 75 74 20 6a 75 73   use, without jus
+0170  74 20 63 6f 6d 70 65 6e 73 61 74 69 6f 6e 2e 0a   t compensation..
+0180  0a 3c 2f 70 3e 3c 70 3e 3c 61 20 6e 61 6d 65 3d   .</p><p><a name=
+0190  22 36 22 3e 3c 73 74 72 6f 6e 67 3e 3c 68 33 3e   "6"><strong><h3>
+01a0  41 6d 65 6e 64 6d 65 6e 74 20 56 49 3c 2f 68 33   Amendment VI</h3
+01b0  3e 3c 2f 73 74 72 6f 6e 67 3e 3c 2f 61 3e 0a 0a   ></strong></a>..
+01c0  3c 70 3e 3c 2f 70 3e 3c 70 3e 49 6e 20 61 6c 6c   <p></p><p>In all
+01d0  20 63 72 69 6d 69 6e 61 6c 20 70 72 6f 73 65 63    criminal prosec
+01e0  75 74 69 6f 6e 73 2c 20 74 68 65 20 61 63 63 75   utions, the accu
+01f0  73 65 64 20 73 68 61 6c 6c 20 65 6e 6a 6f 79 20   sed shall enjoy 
+0200  74 68 65 20 72 69 67 68 74 0a 74 6f 20 61 20 73   the right.to a s
+0210  70 65 65 64 79 20 61 6e 64 20 70 75 62 6c 69 63   peedy and public
+0220  20 74 72 69 61 6c 2c 20 62 79 20 61 6e 20 69 6d    trial, by an im
+0230  70 61 72 74 69 61 6c 20 6a 75 72 79 20 6f 66 20   partial jury of 
+0240  74 68 65 20 73 74 61 74 65 0a 61 6e 64 20 64 69   the state.and di
+0250  73 74 72 69 63 74 20 77 68 65 72 65 69 6e 20 74   strict wherein t
+0260  68 65 20 63 72 69 6d 65 20 73 68 61 6c 6c 20 68   he crime shall h
+0270  61 76 65 20 62 65 65 6e 20 63 6f 6d 6d 69 74 74   ave been committ
+0280  65 64 2c 20 77 68 69 63 68 0a 64 69 73 74 72 69   ed, which.distri
+0290  63 74 20 73 68 61 6c 6c 20 68 61 76 65 20 62 65   ct shall have be
+02a0  65 6e 20 70 72 65 76 69 6f 75 73 6c 79 20 61 73   en previously as
+02b0  63 65 72 74 61 69 6e 65 64 20 62 79 20 6c 61 77   certained by law
+02c0  2c 20 61 6e 64 0a 74 6f 20 62 65 20 69 6e 66 6f   , and.to be info
+02d0  72 6d 65 64 20 6f 66 20 74 68 65 20 6e 61 74 75   rmed of the natu
+02e0  72 65 20 61 6e 64 20 63 61 75 73 65 20 6f 66 20   re and cause of 
+02f0  74 68 65 20 61 63 63 75 73 61 74 69 6f 6e 3b 0a   the accusation;.
+0300  74 6f 20 62 65 20 63 6f 6e 66 72 6f 6e 74 65 64   to be confronted
+0310  20 77 69 74 68 20 74 68 65 20 77 69 74 6e 65 73    with the witnes
+0320  73 65 73 20 61 67 61 69 6e 73 74 20 68 69 6d 3b   ses against him;
+0330  20 74 6f 20 68 61 76 65 0a 63 6f 6d 70 75 6c 73    to have.compuls
+0340  6f 72 79 20 70 72 6f 63 65 73 73 20 66 6f 72 20   ory process for 
+0350  6f 62 74 61 69 6e 69 6e 67 20 77 69 74 6e 65 73   obtaining witnes
+0360  73 65 73 20 69 6e 20 68 69 73 20 66 61 76 6f 72   ses in his favor
+0370  2c 0a 61 6e 64 20 74 6f 20 68 61 76 65 20 74 68   ,.and to have th
+0380  65 20 61 73 73 69 73 74 61 6e 63 65 20 6f 66 20   e assistance of 
+0390  63 6f 75 6e 73 65 6c 20 66 6f 72 20 68 69 73 20   counsel for his 
+03a0  64 65 66 65 6e 73 65 2e 0a 0a 3c 2f 70 3e 3c 70   defense...</p><p
+03b0  3e 3c 61 20 6e 61 6d 65 3d 22 37 22 3e 3c 73 74   ><a name="7"><st
+03c0  72 6f 6e 67 3e 3c 68 33 3e 41 6d 65 6e 64 6d 65   rong><h3>Amendme
+03d0  6e 74 20 56 49 49 3c 2f 68 33 3e 3c 2f 73 74 72   nt VII</h3></str
+03e0  6f 6e 67 3e 3c 2f 61 3e 0a 0a 3c 70 3e 3c 2f 70   ong></a>..<p></p
+03f0  3e 3c 70 3e 49 6e 20 73 75 69 74 73 20 61 74 20   ><p>In suits at 
+0400  63 6f 6d 6d 6f 6e 20 6c 61 77 2c 20 77 68 65 72   common law, wher
+0410  65 20 74 68 65 20 76 61 6c 75 65 20 69 6e 20 63   e the value in c
+0420  6f 6e 74 72 6f 76 65 72 73 79 20 73 68 61 6c 6c   ontroversy shall
+0430  0a 65 78 63 65 65 64 20 74 77 65 6e 74 79 20 64   .exceed twenty d
+0440  6f 6c 6c 61 72 73 2c 20 74 68 65 20 72 69 67 68   ollars, the righ
+0450  74 20 6f 66 20 74 72 69 61 6c 20 62 79 20 6a 75   t of trial by ju
+0460  72 79 20 73 68 61 6c 6c 20 62 65 0a 70 72 65 73   ry shall be.pres
+0470  65 72 76 65 64 2c 20 61 6e 64 20 6e 6f 20 66 61   erved, and no fa
+0480  63 74 20 74 72 69 65 64 20 62 79 20 61 20 6a 75   ct tried by a ju
+0490  72 79 2c 20 73 68 61 6c 6c 20 62 65 20 6f 74 68   ry, shall be oth
+04a0  65 72 77 69 73 65 0a 72 65 65 78 61 6d 69 6e 65   erwise.reexamine
+04b0  64 20 69 6e 20 61 6e 79 20 63 6f 75 72 74 20 6f   d in any court o
+04c0  66 20 74 68 65 20 55 6e 69 74 65 64 20 53 74 61   f the United Sta
+04d0  74 65 73 2c 20 74 68 61 6e 20 61 63 63 6f 72 64   tes, than accord
+04e0  69 6e 67 0a 74 6f 20 74 68 65 20 72 75 6c 65 73   ing.to the rules
+04f0  20 6f 66 20 74 68 65 20 63 6f 6d 6d 6f 6e 20 6c    of the common l
+0500  61 77 2e 0a 0a 3c 2f 70 3e 3c 70 3e 3c 61 20 6e   aw...</p><p><a n
+0510  61 6d 65 3d 22 38 22 3e 3c 73 74 72 6f 6e 67 3e   ame="8"><strong>
+0520  3c 68 33 3e 41 6d 65 6e 64 6d 65 6e 74 20 56 49   <h3>Amendment VI
+0530  49 49 3c 2f 68 33 3e 3c 2f 73 74 72 6f 6e 67 3e   II</h3></strong>
+0540  3c 2f 61 3e 0a 0a 3c 70 3e 3c 2f 70 3e 3c 70 3e   </a>..<p></p><p>
+0550  45 78 63 65 73 73 69 76 65 20 62 61 69 6c 20 73   Excessive bail s
+0560  68 61 6c 6c 20 6e 6f 74 20 62 65 20 72 65 71 75   hall not be requ
+0570  69 72 65 64 2c 20 6e 6f 72 20 65 78 63 65 73 73   ired, nor excess
+0580  69 76 65 20 66 69 6e 65 73 0a 69 6d 70 6f 73 65   ive fines.impose
+0590  64 2c 20 6e 6f 72 20 63 72 75 65 6c 20 61 6e 64   d, nor cruel and
+05a0  20 75 6e 75 73 75 61 6c 20 70 75 6e 69 73 68 6d    unusual punishm
+05b0  65 6e 74 73 20 69 6e 66 6c 69 63 74 65 64 2e 0a   ents inflicted..
+05c0  0a 3c 2f 70 3e 3c 70 3e 3c 61 20 6e 61 6d 65 3d   .</p><p><a name=
+05d0  22 39 22 3e 3c 73 74 72 6f 6e 67 3e               "9"><strong>
+
+No.     Time        Source                Destination           Protocol Length Info
+     16 17.527422   LinksysG_da:af:73     AmbitMic_a9:3d:68     0x0800   489    IP
+
+Frame 16: 489 bytes on wire (3912 bits), 489 bytes captured (3912 bits)
+Ethernet II, Src: LinksysG_da:af:73 (00:06:25:da:af:73), Dst: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Destination: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Source: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Type: IP (0x0800)
+Data (475 bytes)
+
+0000  45 40 01 db 8f 32 40 00 37 06 7b 15 80 77 f5 0c   E@...2@.7.{..w..
+0010  c0 a8 01 69 00 50 04 22 ac a5 50 d0 65 14 9c 1f   ...i.P."..P.e...
+0020  50 18 1b 28 49 75 00 00 3c 68 33 3e 41 6d 65 6e   P..(Iu..<h3>Amen
+0030  64 6d 65 6e 74 20 49 58 3c 2f 68 33 3e 3c 2f 73   dment IX</h3></s
+0040  74 72 6f 6e 67 3e 3c 2f 61 3e 0a 0a 3c 70 3e 3c   trong></a>..<p><
+0050  2f 70 3e 3c 70 3e 54 68 65 20 65 6e 75 6d 65 72   /p><p>The enumer
+0060  61 74 69 6f 6e 20 69 6e 20 74 68 65 20 43 6f 6e   ation in the Con
+0070  73 74 69 74 75 74 69 6f 6e 2c 20 6f 66 20 63 65   stitution, of ce
+0080  72 74 61 69 6e 20 72 69 67 68 74 73 2c 20 73 68   rtain rights, sh
+0090  61 6c 6c 0a 6e 6f 74 20 62 65 20 63 6f 6e 73 74   all.not be const
+00a0  72 75 65 64 20 74 6f 20 64 65 6e 79 20 6f 72 20   rued to deny or 
+00b0  64 69 73 70 61 72 61 67 65 20 6f 74 68 65 72 73   disparage others
+00c0  20 72 65 74 61 69 6e 65 64 20 62 79 20 74 68 65    retained by the
+00d0  20 70 65 6f 70 6c 65 2e 0a 0a 3c 2f 70 3e 3c 70    people...</p><p
+00e0  3e 3c 61 20 6e 61 6d 65 3d 22 31 30 22 3e 3c 73   ><a name="10"><s
+00f0  74 72 6f 6e 67 3e 3c 68 33 3e 41 6d 65 6e 64 6d   trong><h3>Amendm
+0100  65 6e 74 20 58 3c 2f 68 33 3e 3c 2f 73 74 72 6f   ent X</h3></stro
+0110  6e 67 3e 3c 2f 61 3e 0a 0a 3c 70 3e 3c 2f 70 3e   ng></a>..<p></p>
+0120  0a 3c 70 3e 54 68 65 20 70 6f 77 65 72 73 20 6e   .<p>The powers n
+0130  6f 74 20 64 65 6c 65 67 61 74 65 64 20 74 6f 20   ot delegated to 
+0140  74 68 65 20 55 6e 69 74 65 64 20 53 74 61 74 65   the United State
+0150  73 20 62 79 20 74 68 65 20 43 6f 6e 73 74 69 74   s by the Constit
+0160  75 74 69 6f 6e 2c 20 6e 6f 72 20 70 72 6f 68 69   ution, nor prohi
+0170  62 69 74 65 64 20 0a 20 20 62 79 20 69 74 20 74   bited .  by it t
+0180  6f 20 74 68 65 20 73 74 61 74 65 73 2c 20 61 72   o the states, ar
+0190  65 20 72 65 73 65 72 76 65 64 20 74 6f 20 74 68   e reserved to th
+01a0  65 20 73 74 61 74 65 73 20 72 65 73 70 65 63 74   e states respect
+01b0  69 76 65 6c 79 2c 20 6f 72 20 74 6f 20 74 68 65   ively, or to the
+01c0  20 70 65 6f 70 6c 65 2e 3c 2f 70 3e 0a 3c 2f 62    people.</p>.</b
+01d0  6f 64 79 3e 3c 2f 68 74 6d 6c 3e                  ody></html>
+
+No.     Time        Source                Destination           Protocol Length Info
+     17 17.527457   AmbitMic_a9:3d:68     LinksysG_da:af:73     0x0800   54     IP
+
+Frame 17: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68), Dst: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Destination: LinksysG_da:af:73 (00:06:25:da:af:73)
+    Source: AmbitMic_a9:3d:68 (00:d0:59:a9:3d:68)
+    Type: IP (0x0800)
+Data (40 bytes)
+
+0000  45 00 00 28 00 fc 40 00 80 06 c2 3e c0 a8 01 69   E..(..@....>...i
+0010  80 77 f5 0c 04 22 00 50 65 14 9c 1f ac a5 52 83   .w...".Pe.....R.
+0020  50 10 fa f0 78 7f 00 00                           P...x...

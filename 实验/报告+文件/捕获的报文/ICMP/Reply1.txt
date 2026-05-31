@@ -1,0 +1,34 @@
+No.     Time           Source                Destination           Protocol Length Info
+     39 3.472965000    128.119.245.12        192.168.1.100         ICMP     74     Echo (ping) reply    id=0x0001, seq=388/33793, ttl=38 (request in 38)
+
+Frame 39: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83), Dst: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.100 (192.168.1.100)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 60
+    Identification: 0x8981 (35201)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 38
+    Protocol: ICMP (1)
+    Header checksum: 0xd3af [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.100 (192.168.1.100)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x53d7 [correct]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence number (BE): 388 (0x0184)
+    Sequence number (LE): 33793 (0x8401)
+    [Request frame: 38]
+    [Response time: 265.189 ms]
+    Data (32 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi

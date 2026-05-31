@@ -1,0 +1,41 @@
+No.     Time           Source                Destination           Protocol Length Info
+     35 4.442820000    192.168.1.1           192.168.1.102         ICMP     120    Destination unreachable (Port unreachable)
+
+Frame 35: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83), Dst: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.102 (192.168.1.102)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 106
+    Identification: 0x946b (37995)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x61b0 [validation disabled]
+    Source: 192.168.1.1 (192.168.1.1)
+    Destination: 192.168.1.102 (192.168.1.102)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+    Type: 3 (Destination unreachable)
+    Code: 3 (Port unreachable)
+    Checksum: 0x8100 [correct]
+    Internet Protocol Version 4, Src: 192.168.1.102 (192.168.1.102), Dst: 192.168.1.1 (192.168.1.1)
+        Version: 4
+        Header Length: 20 bytes
+        Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        Total Length: 78
+        Identification: 0xd0cc (53452)
+        Flags: 0x00
+        Fragment offset: 0
+        Time to live: 128
+        Protocol: UDP (17)
+        Header checksum: 0xe61a [validation disabled]
+        Source: 192.168.1.102 (192.168.1.102)
+        Destination: 192.168.1.1 (192.168.1.1)
+        [Source GeoIP: Unknown]
+        [Destination GeoIP: Unknown]
+    User Datagram Protocol, Src Port: 137 (137), Dst Port: 137 (137)
+    NetBIOS Name Service

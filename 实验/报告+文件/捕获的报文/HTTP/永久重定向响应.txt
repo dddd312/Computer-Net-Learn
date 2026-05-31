@@ -1,0 +1,23 @@
+No.     Time           Source                Destination           Protocol Length Info
+    140 2.910464000    128.119.245.12        192.168.1.104         HTTP     636    HTTP/1.1 301 Moved Permanently  (text/html)
+
+Frame 140: 636 bytes on wire (5088 bits), 636 bytes captured (5088 bits) on interface 0
+Ethernet II, Src: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83), Dst: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 61394 (61394), Seq: 1305, Ack: 891, Len: 582
+Hypertext Transfer Protocol
+    HTTP/1.1 301 Moved Permanently\r\n
+    Date: Fri, 22 May 2026 12:42:02 GMT\r\n
+    Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.1 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n
+    Location: https://gaia.cs.umass.edu//pearson.png\r\n
+    Content-Length: 246\r\n
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.235144000 seconds]
+    [Prev request in frame: 87]
+    [Prev response in frame: 94]
+    [Request in frame: 95]
+Line-based text data: text/html

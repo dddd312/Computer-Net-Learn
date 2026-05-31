@@ -1,0 +1,36 @@
+No.     Time           Source                Destination           Protocol Length Info
+   2931 151.906184000  128.119.245.12        192.168.1.102         ICMP     106    Echo (ping) reply    id=0x0001, seq=568/14338, ttl=37 (request in 2928)
+
+Frame 2931: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: 4c:10:d5:90:89:83 (4c:10:d5:90:89:83), Dst: b8:1e:a4:b4:b9:0f (b8:1e:a4:b4:b9:0f)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.102 (192.168.1.102)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 92
+    Identification: 0x49af (18863)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 37
+    Protocol: ICMP (1)
+    Header checksum: 0x1460 [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.102 (192.168.1.102)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xfdc6 [correct]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence number (BE): 568 (0x0238)
+    Sequence number (LE): 14338 (0x3802)
+    [Request frame: 2928]
+    [Response time: 240.086 ms]
+    Data (64 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0030  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
